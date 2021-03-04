@@ -11,6 +11,7 @@ html,body
 
 body{
     background-image: url("../img/fond.png");
+    cursor: url("../fichiers/cursor1.svg"),default;
 }
 
 h1,h3{
@@ -85,6 +86,13 @@ a{
 
 
 /* Styles hover*/
+
+a:hover,
+.btnperso:hover,
+svg:hover,
+.filters ul li:hover{
+    cursor: url("../fichiers/cursor2.svg"),default;
+}
 
 .next:hover{
     text-decoration: underline 5px solid #EDB83D;
@@ -208,7 +216,7 @@ figcaption{
       border-radius: 30px;
       padding: .900rem 1.3rem;
       font-size: 1.2rem;
- 
+
   }
 
 
