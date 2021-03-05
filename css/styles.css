@@ -316,6 +316,17 @@ background-color: #d4886225;
     text-align: center;
 }
 
+/* Animate CSS */
+.animate__backInDown,
+.animate__backInLeft,
+.animate__backInRight{
+    animation-delay: 500ms;
+}
+
+.animate__bounceInDown,
+.animate__bounceInLeft{
+    animation-delay: 0;
+}
 
 /* Responsive  */
 
