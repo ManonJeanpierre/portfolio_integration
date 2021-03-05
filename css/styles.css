@@ -180,49 +180,30 @@ figcaption{
 
 /* Filtre */
 
-
- .brand {
-    text-align: center;
-  }
-  
-  .brand img {
-    width: 25%;
+.column {
+    float: left;
+    max-width: 33%;
+    display: none; 
   }
   
   .content {
-      width: 100%;
-      margin: 0 auto;
-      padding: 0px;
-      text-align: center;
+    padding: 2%;
   }
   
-  .single-content img {
-      width: 350px;
-      height: 100%;
-      margin: 10px;
-  }
-  
-  .filters {
-      width: 100%;
-      text-align: center;
-  }
-  
-  .filters ul li{
-      display: inline-block;
-      margin-right: 2%;
-      font-weight: bold;
-      color:white;
-      background-color: #1C7065;
-      border-radius: 30px;
-      padding: .900rem 1.3rem;
-      font-size: 1.2rem;
+  .show {
+    display: block;
   }
 
+  #myBtnContainer button.active{
+      background-color: #1C7065;
+  }
 
   .mobileonly{
     font-family: 'Abril Fatface', sans-serif;
-    font-size: 1.3rem;
+    color: #1C7065;
+    font-size: 1.5rem ;
   }
+
   
 /* Footer */
 

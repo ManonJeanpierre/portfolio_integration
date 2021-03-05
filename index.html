@@ -37,10 +37,7 @@
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js"></script>
 
-     
- 
 
 </head>
 <header>
@@ -189,190 +186,185 @@
                             </div>
 
                             <div class="container">
-
                                 <div class="row margetop" id="ancreprojets">
                                     <div class="col-md-12 mt-5 mb-5">                                       
-                                            <h2>DÉCOUVREZ MES TRAVAUX</h2>                          
+                                             <h2>DÉCOUVREZ MES TRAVAUX</h2>                          
                                     </div>
                                     <div class="col-md-12 mt-2">
                                         <h3 class="text-center mb-5">MES PROJETS</h3>
                                     </div>
-                                    
-                                    <div class="filters filter-button-group">
-                                        <ul>
-                                            <li class="activefilter" data-filter="*">Tous les projets</li>
-                                            <li data-filter=".print">Print</li>
-                                            <li data-filter=".web">Web</li>
-                                            <li data-filter=".audiovisuel">Audiovisuel</li>
-                                        </ul>
-                                    </div>
+                                    <div class="col-md-12 mb-4">
+                                        <div class="text-center" id="myBtnContainer">
+                                            <button class="btnperso active" onclick="filterSelection('all')"> Tous</button>
+                                            <button class="btnperso ml-4" onclick="filterSelection('print')"> Print</button>
+                                            <button class="btnperso ml-4" onclick="filterSelection('web')"> Web</button>
+                                            <button class="btnperso ml-4" onclick="filterSelection('audiovisuel')"> Audiovisuel</button>
+                                        </div>
+                                    </div>                                   
                                 
-                                    <div class="content grid">
-                            
-                                    <div class="single-content print web grid-item">
-                                        <div class="hoverimg">
-                                            <a href="incamp.html">
-                                                <img class="img-fluid" src="img/accueil/incamp-accueil.jpg" alt="Mockup projet InCamp">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Projet collectif InCamp
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2">Projet collectif InCamp</p>  
-                                        </div>
-                                    </div>
-                            
-                                    <div class="single-content print web grid-item">
-                                        <div class="hoverimg">
-                                            <a href="estoire.html">
-                                                <img class="img-fluid" src="img/accueil/estoire_accueil.jpg" alt="Mockup projet e-stoire">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Projet collectif e-stoire
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2">Projet collectif e-stoire</p>                                                 
-                                        </div>
-                                    </div>
-                            
-                                    <div class="single-content print grid-item">
-                                        <div class="hoverimg">
-                                            <a href="artnouveau.html">
-                                                <img class="img-fluid" src="img/accueil/affiches_accueil.jpg" alt="Projet affiches Art Nouveau">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Affiches Art Nouveau
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2">Projet Affiches Art Nouveau</p>    
-                                        </div>
-                                    </div>
+                                    <div class="row">
 
-                                    <div class="single-content web grid-item">
-                                        <div class="hoverimg">
-                                            <a href="luisbunuel.html">
-                                            <img class="img-fluid" src="img/accueil/luisbunuel_accueil.jpg" alt="Mockup Boss Luis Bunuel">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        BOSS Luis Buñuel
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2">BOSS Luis Buñuel</p>    
-                                        </div>                       
-                                    </div>
+                                            <div class="column print web">
+                                            <div class="content hoverimg">
+                                                <a href="incamp.html"> 
+                                                     <img src="img/accueil/incamp-accueil.jpg" class="img-fluid image" alt="Mockup projet InCamp">
+                                                     <div class="hoverlien">
+                                                         <div class="hovertext">
+                                                             Projet collectif InCamp
+                                                         </div>
+                                                     </div>  
+                                                </a> 
+                                                <p class="mobileonly text-center mt-2">Projet collectif InCamp</p>                            
+                                            </div>                                       
+                                            </div>
 
-                                    <div class="single-content web grid-item">
-                                        <div class="hoverimg">
-                                            <a href="campuscar.html">
-                                                <img class="img-fluid" src="img/accueil/campuscar_accueil.jpg" alt="Projet Campus Car">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Application Campus Car
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2">Application Campus Car</p>    
-                                        </div>    
-                                    </div>
+                                            <div class="column print web">
+                                            <div class="content hoverimg">
+                                                <a href="estoire.html">                                                   
+                                                    <img src="img/accueil/estoire_accueil.jpg" class="img-fluid image " alt="Mockup projet e-stoire">  
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            Projet collectif e-stoire
+                                                        </div>
+                                                    </div>  
+                                                </a>   
+                                                <p class="mobileonly text-center mt-2">Projet collectif e-stoire</p>                                
+                                            </div>
+                                            </div>
 
-                                    <div class="single-content web grid-item">
-                                        <div class="hoverimg">
-                                            <a href="indiglu.html">
-                                                <img class="img-fluid" src="img/accueil/indiglu_accueil.jpg" alt="Mockup Projet Indiglu">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Refonte de l'identité visuelle d'Indiglu
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2">Refonte de l'identité visuelle d'Indiglu</p>    
-                                        </div>  
-                                    </div>
-
-                                    <div class="single-content web grid-item">
-                                        <div class="hoverimg">
-                                            <a href="citadelle.html">
-                                                <img class="img-fluid" src="img/accueil/citadelle_accueil.jpg" alt="Mockup webdocumentaire Citadelle">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Webdocumentaire Citadelle
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2"> Webdocumentaire Citadelle</p>    
-                                        </div>                                         
-                                    </div>
-
-                                    <div class="single-content audiovisuel grid-item">
-                                        <div class="hoverimg">
-                                            <a href="duality.html">
-                                                <img class="img-fluid" src="img/accueil/duality_accueil.jpg" alt="Mockup Duality of Harry">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Motion design : The duality of Harry
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2">Motion design : The duality of Harry</p>    
-                                        </div>                                     
-                                    </div>
-
-                                    <div class="single-content audiovisuel grid-item">
-                                        <div class="hoverimg">
-                                            <a href="leo.html">
-                                                <img class="img-fluid" src="img/accueil/leo_accueil.jpg" alt="Mockup Où es-tu Léo ?">
-                                                <div class="hoverlien">
-                                                    <div class="hovertext">
-                                                        Court métrage : Où es-tu Léo ?
-                                                    </div>
-                                                </div>
-                                            </a>
-                                            <p class="mobileonly text-center mt-2"> Court métrage : Où es-tu Léo ?</p>    
-                                        </div>                                           
-                                    </div>
-                                    </div>
-                                </div>
-
-                                <div class="row mt-5">
-                                    <div class="col-md-12 mt-5 mb-5">
-                                        <h2>DÉCOUVREZ MES ILLUSTRATIONS</h2>
-                                    </div>
-                                    <div class="col-md-6">
-                                        <div class="position1">
-                                            <h3>MES ILLUSTRATIONS</h3>
-                                            <p>Je réalise des illustrations représentant principalement des <strong>femmes et des motifs floraux.</strong> </p>
-                                            <p>J'utilise des outils tels que <strong>Adobe Photoshop et Illustrator.</strong></p>
-                                        </div>
-                                        <img src="img/accueil/forme_jaune.png" alt="Forme jaune" class="img-fluid position0">
-                                        
-                                    </div>
-                                    <div class="col-md-6 position2">
-                                        <img src="img/accueil/illu1_accueil.jpg" alt="Illustration de deux femmes" class="img-fluid mb-3">
-                                        <img src="img/accueil/illu2_accueil.jpg" alt="Illustration d'une femme avec un bouquet'" class="img-fluid mb-3">
-                                        <img src="img/accueil/illu3_accueil.jpg" alt="Illustration d'une femme avec des fleurs dans les cheveux'" class="img-fluid">
-                                        <a href="illustrations.html"><button type="button" class="btnperso mt-5 marge">DÉCOUVRIR</button></a>
-                                    </div>
-                                </div>
-                                        
-                                <div class="row" id="contact">
-                                    <div class="col-md-12 mt-5 mb-5">
-                                        <h2>CONTACTEZ-MOI</h2>
-                                    </div>
-                                    <div class="col-md-12 mb-4 text-center">
-                                        <h3 class="mb-5">ET SI ON TRAVAILLAIT ENSEMBLE ?</h3>
-                                        <p><strong>Vous souhaitez travailler avec moi ? Vous avez une question ? Un projet ?</strong></p>
-                                        <p>N'hésitez pas à me contacter ! </p>
-                                        <a href="mailto:manon-jp@outlook.fr"><button type="button" class="btnperso">M'ÉCRIRE</button></a>
-                                    </div>
+                                            <div class="column print">
+                                            <div class="content hoverimg">
+                                                <a href="artnouveau.html">
+                                                    <img src="img/accueil/affiches_accueil.jpg" class="img-fluid image" alt="Affiches Art Nouveau">
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            Affiches Art Nouveau
+                                                        </div>
+                                                    </div>     
+                                                </a>    
+                                                <p class="mobileonly text-center mt-2">Affiches Art Nouveau</p>                                      
+                                            </div>
+                                            </div>
                                     
-                                </div>
+                                            <div class="column web">
+                                            <div class="content hoverimg">
+                                                <a href="luisbunuel.html">    
+                                                    <img src="img/accueil/luisbunuel_accueil.jpg" class="img-fluid image" alt="Mockup projet Luis Bunuel"> 
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            BOSS Luis Buñuel
+                                                        </div>
+                                                    </div>  
+                                                </a>   
+                                                <p class="mobileonly text-center mt-2">BOSS Luis Buñuel</p>                                                 
+                                            </div>
+                                            </div>
+                                            <div class="column web">
+                                            <div class="content hoverimg">
+                                                <a href="campuscar.html">       
+                                                    <img src="img/accueil/campuscar_accueil.jpg" class="img-fluid image" alt="Projet Campus Car"> 
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            Application Campus Car
+                                                        </div>
+                                                    </div>       
+                                                </a>   
+                                                <p class="mobileonly text-center mt-2">Application Campus Car</p>                                  
+                                            </div>
+                                            </div>
+                                            <div class="column web">
+                                            <div class="content hoverimg">
+                                                <a href="indiglu.html">           
+                                                    <img src="img/accueil/indiglu_accueil.jpg" class="img-fluid image " alt="Mockup projet Indiglu">
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            Refonte de l'identité visuelle d'Indiglu
+                                                        </div>
+                                                    </div>   
+                                                </a> 
+                                                <p class="mobileonly text-center mt-2">Refonte de l'identité visuelle d'Indiglu</p>       
+                                            </div>
+                                            </div>
+                                        
+                                            <div class="column web">
+                                            <div class="content hoverimg">
+                                                <a href="citadelle.html">    
+                                                    <img src="img/accueil/citadelle_accueil.jpg" class="img-fluid image" alt="Mockup projet Citadelle">  
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            Webdocumentaire Citadelle
+                                                        </div>
+                                                    </div> 
+                                                </a>
+                                                <p class="mobileonly text-center mt-2"> Webdocumentaire Citadelle</p>  
+                                            </div>
+                                            </div>
+                                            <div class="column audiovisuel">
+                                            <div class="content hoverimg">
+                                                <a href="duality.html">    
+                                                    <img src="img/accueil/duality_accueil.jpg" class="img-fluid image" alt="Mockup projet infographie The duality of Harry"> 
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            Motion design : The duality of Harry
+                                                        </div>
+                                                    </div>   
+                                                </a>     
+                                                <p class="mobileonly text-center mt-2"> Motion design : The duality of Harry</p>                    
+                                            </div>
+                                            </div>
+                                            <div class="column audiovisuel">
+                                            <div class="content hoverimg">
+                                                <a href="leo.html">    
+                                                    <img src="img/accueil/leo_accueil.jpg" class="img-fluid image" alt="Mockup projet Où es-tu Léo ?">
+                                                    <div class="hoverlien">
+                                                        <div class="hovertext">
+                                                            Court métrage : Où es-tu Léo ?
+                                                        </div>
+                                                    </div> 
+                                                </a>
+                                                <p class="mobileonly text-center mt-2">  Court métrage : Où es-tu Léo ?</p>  
+                                            </div>
+                                            </div>
+                                                  
+                                        </div> 
+                                  
+                                
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-12 mt-5 mb-5">
+                                                <h2>DÉCOUVREZ MES ILLUSTRATIONS</h2>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="position1">
+                                                    <h3>MES ILLUSTRATIONS</h3>
+                                                    <p>Je réalise des illustrations représentant principalement des <strong>femmes et des motifs floraux.</strong> </p>
+                                                    <p>J'utilise des outils tels que <strong>Adobe Photoshop et Illustrator.</strong></p>
+                                                </div>
+                                                <img src="img/accueil/forme_jaune.png" alt="Forme jaune" class="img-fluid position0">
+                                                
+                                            </div>
+                                            <div class="col-md-6 position2">
+                                                <img src="img/accueil/illu1_accueil.jpg" alt="Illustration de deux femmes" class="img-fluid mb-3">
+                                                <img src="img/accueil/illu2_accueil.jpg" alt="Illustration d'une femme avec un bouquet'" class="img-fluid mb-3">
+                                                <img src="img/accueil/illu3_accueil.jpg" alt="Illustration d'une femme avec des fleurs dans les cheveux'" class="img-fluid">
+                                                <a href="illustrations.html"><button type="button" class="btnperso mt-5 marge">DÉCOUVRIR</button></a>
+                                            </div>
+                                        </div>
+                                        <div class="row" id="contact">
+                                            <div class="col-md-12 mt-5 mb-5">
+                                                <h2>CONTACTEZ-MOI</h2>
+                                            </div>
+                                            <div class="col-md-12 mb-4 text-center">
+                                                <h3 class="mb-5">ET SI ON TRAVAILLAIT ENSEMBLE ?</h3>
+                                                <p><strong>Vous souhaitez travailler avec moi ? Vous avez une question ? Un projet ?</strong></p>
+                                                <p>N'hésitez pas à me contacter ! </p>
+                                                <a href="mailto:manon-jp@outlook.fr"><button type="button" class="btnperso">M'ÉCRIRE</button></a>
+                                            </div>
+                                            
+                                        </div>
                             
 
-                            </div>                    
+                            </div>                     
                         </div>
                     </div>
                 </div>
@@ -414,7 +406,7 @@
 </footer>
 
 
-
+<script src="js/script.js"></script>
 </body>
 
 </html>
