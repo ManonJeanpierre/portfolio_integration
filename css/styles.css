@@ -320,7 +320,7 @@ background-color: #d4886225;
 .animate__backInDown,
 .animate__backInLeft,
 .animate__backInRight{
-    animation-delay: 500ms;
+    animation-delay: 700ms;
 }
 
 .animate__bounceInDown,
