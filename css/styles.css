@@ -203,6 +203,7 @@ figcaption{
     color: #1C7065;
     font-size: 1.5rem ;
   }
+  
 
   
 /* Footer */
@@ -664,4 +665,10 @@ background-color: #d4886225;
         font-size: 1.4rem;
     }
 
+    #myBtnContainer{
+        display: none;
+    }
+
 }
+
+
