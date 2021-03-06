@@ -162,6 +162,53 @@ figcaption{
     width: 100%;
 }
 
+/* Image Parallax */
+
+.img1,.img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+    height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: 0 center;
+    margin-top:-2%;
+  }
+
+  .img1{
+    background-image: url(../img/incamp/banniere.jpg);
+    }
+
+    .img2{
+        background-image: url(../img/estoire/banniere.jpg);
+    }
+
+    .img3{
+        background-image: url(../img/citadelle/banniere.jpg);
+    }
+
+    .img4{
+        background-image: url(../img/luisbunuel/banniere.jpg);
+    }
+  
+    .img5{
+        background-image: url(../img/indiglu/banniere.jpg);
+    }
+
+    .img6{
+        background-image: url(../img/artnouveau/banniere.jpg);
+    }
+
+    .img7{
+        background-image: url(../img/campuscar/banniere.png);
+    }
+  
+    .img8{
+        background-image: url(../img/Duality/banniere.jpg);
+    }
+
+    .img9{
+        background-image: url(../img/leo/banniere.jpg);
+    }
+  
+  
 
 /* Animation Illustration */
 
