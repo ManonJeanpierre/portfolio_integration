@@ -162,54 +162,6 @@ figcaption{
     width: 100%;
 }
 
-/* Image Parallax */
-
-.img1,.img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
-    height: 500px;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: 0 center;
-    margin-top:-2%;
-  }
-
-  .img1{
-    background-image: url(../img/incamp/banniere.jpg);
-    }
-
-    .img2{
-        background-image: url(../img/estoire/banniere.jpg);
-    }
-
-    .img3{
-        background-image: url(../img/citadelle/banniere.jpg);
-    }
-
-    .img4{
-        background-image: url(../img/luisbunuel/banniere.jpg);
-    }
-  
-    .img5{
-        background-image: url(../img/indiglu/banniere.jpg);
-    }
-
-    .img6{
-        background-image: url(../img/artnouveau/banniere.jpg);
-    }
-
-    .img7{
-        background-image: url(../img/campuscar/banniere.png);
-    }
-  
-    .img8{
-        background-image: url(../img/Duality/banniere.jpg);
-    }
-
-    .img9{
-        background-image: url(../img/leo/banniere.JPG);
-    }
-  
-  
-
 /* Animation Illustration */
 
 
@@ -616,57 +568,103 @@ background-color: #d4886225;
         transition-delay:0.4s;
     }
 
+    /* Image Parallax */
+
+    .img1,.img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9{
+        height: 500px;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0 center;
+        margin-top:-2%;
+    }
+
+    .img1{
+        background-image: url(../img/incamp/banniere.jpg);
+        }
+
+        .img2{
+            background-image: url(../img/estoire/banniere.jpg);
+        }
+
+        .img3{
+            background-image: url(../img/citadelle/banniere.jpg);
+        }
+
+        .img4{
+            background-image: url(../img/luisbunuel/banniere.jpg);
+        }
+    
+        .img5{
+            background-image: url(../img/indiglu/banniere.jpg);
+        }
+
+        .img6{
+            background-image: url(../img/artnouveau/banniere.jpg);
+        }
+
+        .img7{
+            background-image: url(../img/campuscar/banniere.png);
+        }
+    
+        .img8{
+            background-image: url(../img/Duality/banniere.jpg);
+        }
+
+        .img9{
+            background-image: url(../img/leo/banniere.JPG);
+        }
+    
     
 
 
-}
-
-@media (max-width:1280px){
-    
-    .hovertext{
-        display: none;
     }
 
-    .loader-logo{
-        display: none;
-    }
-  
-}
+    @media (max-width:1280px){
+        
+        .hovertext{
+            display: none;
+        }
 
-@media (min-width: 765px){
+        .loader-logo{
+            display: none;
+        }
     
-    .imgaccueil{
-        max-width: 120%;
-    }
-
-    .position1{
-        position: relative;
-        z-index:100;
-        margin-top:20%;
-    }
-    
-    .position1 p{
-        margin-left:20%;
-        margin-top:5%;
-    }
-    .position0{
-        z-index:1;
-        position: absolute;
-        top:0;
-        left:10%;
-    }
-    
-    .position2{
-        z-index:0;
-    }
-    
-    .position2 img{
-        max-width: 80%;;
     }
 
-    .logosmall{
-        max-width: 12%;
-    }  
+    @media (min-width: 765px){
+        
+        .imgaccueil{
+            max-width: 120%;
+        }
+
+        .position1{
+            position: relative;
+            z-index:100;
+            margin-top:20%;
+        }
+        
+        .position1 p{
+            margin-left:20%;
+            margin-top:5%;
+        }
+        .position0{
+            z-index:1;
+            position: absolute;
+            top:0;
+            left:10%;
+        }
+        
+        .position2{
+            z-index:0;
+        }
+        
+        .position2 img{
+            max-width: 80%;;
+        }
+
+        .logosmall{
+            max-width: 12%;
+        }  
     
 }
 
