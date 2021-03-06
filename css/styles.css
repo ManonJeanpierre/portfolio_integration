@@ -205,7 +205,7 @@ figcaption{
     }
 
     .img9{
-        background-image: url(../img/leo/banniere.jpg);
+        background-image: url(../img/leo/banniere.JPG);
     }
   
   
@@ -364,16 +364,13 @@ background-color: #d4886225;
 }
 
 /* Animate CSS */
-.animate__backInDown,
-.animate__backInLeft,
-.animate__backInRight{
-    animation-delay: 700ms;
+.animate__bounceInDown,
+.animate__bounceInLeft,
+.animate__bounceInRight{
+    animation-delay: 400ms;
 }
 
-.animate__bounceInDown,
-.animate__bounceInLeft{
-    animation-delay: 0;
-}
+
 
 /* Responsive  */
 
