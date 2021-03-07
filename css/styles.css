@@ -55,10 +55,6 @@ h5{
     font-size: 1.6rem;
 }
 
-.typewrite{
-    font-family: 'Abril Fatface', sans-serif;
-    font-size: 2.2rem;
-}
 
 .btnperso{
         color:white;
@@ -632,6 +628,11 @@ background-color: #d4886225;
 
         .img9{
             background-image: url(../img/leo/banniere.JPG);
+        }
+
+        .typewrite{
+            font-family: 'Abril Fatface', sans-serif;
+            font-size: 2.1rem;
         }
     
     
