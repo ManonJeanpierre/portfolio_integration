@@ -14,6 +14,7 @@ body{
     cursor: url("../fichiers/cursor1.svg"),default;
 }
 
+
 h1,h3{
     font-family: 'Abril Fatface', sans-serif;
 }
@@ -36,6 +37,7 @@ h2{
 h3{
     font-size: 2rem;
 }
+
 p{
     font-family: 'Lato-light', sans-serif;
     font-size: 1.1rem;
@@ -84,13 +86,11 @@ a{
 }
 
 
-
-
 /* Styles hover*/
 
 a:hover,
 .btnperso:hover,
-svg:hover,
+#next-button svg:hover,
 .filters ul li:hover{
     cursor: url("../fichiers/cursor2.svg"),default;
 }
@@ -131,6 +131,26 @@ a:hover{
     max-width: 50%;
 }
 
+
+/* Flèche haut */
+
+
+#toTop {
+    position:fixed;
+    bottom:3%;
+    right:3%;
+    background: #EDB83D;
+    font-size:1.5rem;
+    line-height:45px;
+    color:#fff;
+    text-align:center;
+    border-radius:50px;
+    height:50px;
+    width:50px;
+    cursor: url("../fichiers/cursor2.svg"),default;
+   }
+   
+   
 
 /* Page d'accueil */
 
@@ -711,6 +731,13 @@ background-color: #d4886225;
 
     #myBtnContainer{
         display: none;
+    }
+
+    #toTop {
+        z-index:1000;
+        position:fixed;
+        bottom:5%;
+        right:10%;
     }
 
 }
