@@ -316,14 +316,6 @@ background-color: #d4886225;
     text-align: center;
 }
 
-/* Animate CSS */
-.animate__bounceInDown,
-.animate__bounceInLeft,
-.animate__bounceInRight{
-    animation-delay: 400ms;
-}
-
-
 
 /* Responsive  */
 
@@ -439,11 +431,13 @@ background-color: #d4886225;
 
     .camera{
         background-image: url("../img/apropos/camera.jpg");
+        background-size: cover;
         border-radius: 30px;
     }
 
     .camera:hover{
         background-image: url("../img/apropos/image.jpg");
+        background-size: cover;
         border-radius: 30px;
     }
 
