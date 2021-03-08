@@ -800,10 +800,7 @@ background-color: #d4886225;
     }
 
     #toTop {
-        z-index:1000;
-        position:fixed;
-        bottom:5%;
-        right:10%;
+        display: none;
     }
 
 }
