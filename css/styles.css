@@ -216,6 +216,10 @@ figcaption{
     font-size: 13rem;
   }
 
+  .graphisme3{
+    font-size: 5rem;
+  }
+
   .text-copy {
     fill: none;
     stroke: white;
@@ -689,7 +693,7 @@ background-color: #d4886225;
         /* Animations  */
 
         .animatedelay{
-            animation-delay: 800ms;
+            animation-delay: 600ms;
         }
 
     }
