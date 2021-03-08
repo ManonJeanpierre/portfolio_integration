@@ -190,13 +190,13 @@ figcaption{
     width: 100%;
 }
 
-/* Animation Illustration */
+/* Animation Texte et Illustration */
 
 
   .path {
     stroke-dasharray: 3000;
     stroke-dashoffset: 3000;
-    animation: dash 10s linear infinite;
+    animation: dash 5s linear infinite;
   }
   
   @keyframes dash {
@@ -204,6 +204,55 @@ figcaption{
       stroke-dashoffset: 0;
     }
   }
+
+  .graphisme{
+    display: block;
+    font-size: 14rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  .graphisme2{
+    font-size: 13rem;
+  }
+
+  .text-copy {
+    fill: none;
+    stroke: white;
+    stroke-dasharray: 6% 29%;
+    stroke-width: 5px;
+    stroke-dashoffset: 0%;
+    animation: stroke-offset 5s infinite linear;
+}
+
+.text-copy:nth-child(1){
+	stroke: #D48862;
+	animation-delay: -1;
+}
+
+.text-copy:nth-child(2){
+	stroke: #EDB83D;
+	animation-delay: -2s;
+}
+
+.text-copy:nth-child(3){
+	stroke: #1C7065;
+	animation-delay: -3s;
+}
+
+.text-copy:nth-child(4){
+	stroke: #104740;
+	animation-delay: -4s;
+}
+
+.text-copy:nth-child(5){
+	stroke: #b1643e;
+	animation-delay: -5s;
+}
+
+@keyframes stroke-offset{
+	100% {stroke-dashoffset: -35%;}
+}
 
 /* Filtre */
 
@@ -347,11 +396,11 @@ background-color: #d4886225;
 /* Responsive  */
 
 
-@media (min-width: 1280px){
+@media (min-width: 1480px){
     #fleur1{
         background-image: url("../img/accueil/motif_accueil_rouge.png");
         background-repeat: no-repeat;
-        background-position-x: 0;
+        background-position-x: -1vw;
         background-position-y: 22vw;
     }
     
@@ -643,9 +692,6 @@ background-color: #d4886225;
             animation-delay: 800ms;
         }
 
-    
-
-
     }
 
     @media (max-width:1280px){
@@ -697,11 +743,13 @@ background-color: #d4886225;
     
 }
 
-@media screen and (min-width: 765px) and (max-width: 1280px) {
-    .content{
-        margin-left:2%;
+@media screen and (min-width: 1280px) and (max-width: 1480px) {
+    .loader-logo img{
+        display: none;
     }
-} 
+}
+
+
 
 @media (max-width: 765px){
     
