@@ -123,6 +123,9 @@ a:hover{
 
 /* En-tête */
 
+nav{
+    z-index: 2000;
+}
 
 .nav-link{
     font-family: 'Abril Fatface', sans-serif;
@@ -280,7 +283,6 @@ figcaption{
 
   .mobileonly{
     font-family: 'Abril Fatface', sans-serif;
-    color: #1C7065;
     font-size: 1.5rem ;
   }
   
@@ -534,7 +536,7 @@ background-color: #d4886225;
         left: 0;
         width: 100%;
         height: 100%;
-        z-index: 1000;
+        z-index: 10000;
     }
     #loader {
         display: block;
@@ -653,41 +655,86 @@ background-color: #d4886225;
         margin-top:-2%;
     }
 
+    .img10, .img11, .img12, .img13, .img14, .img15, .img16, .img17, .img18{
+        height: 110vh;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: 0 center;
+        margin-top:-10%;
+    }
+
     .img1{
         background-image: url(../img/incamp/banniere.jpg);
         }
 
-        .img2{
-            background-image: url(../img/estoire/banniere.jpg);
-        }
+    .img2{
+        background-image: url(../img/estoire/banniere.jpg);
+    }
 
-        .img3{
-            background-image: url(../img/citadelle/banniere.jpg);
-        }
+    .img3{
+        background-image: url(../img/citadelle/banniere.jpg);
+    }
 
-        .img4{
-            background-image: url(../img/luisbunuel/banniere.jpg);
-        }
-    
-        .img5{
-            background-image: url(../img/indiglu/banniere.jpg);
-        }
+    .img4{
+        background-image: url(../img/luisbunuel/banniere.jpg);
+    }
 
-        .img6{
-            background-image: url(../img/artnouveau/banniere.jpg);
-        }
+    .img5{
+        background-image: url(../img/indiglu/banniere.jpg);
+    }
 
-        .img7{
-            background-image: url(../img/campuscar/banniere.png);
-        }
-    
-        .img8{
-            background-image: url(../img/Duality/banniere.jpg);
-        }
+    .img6{
+        background-image: url(../img/artnouveau/banniere.jpg);
+    }
 
-        .img9{
-            background-image: url(../img/leo/banniere.JPG);
-        }
+    .img7{
+        background-image: url(../img/campuscar/banniere.png);
+    }
+
+    .img8{
+        background-image: url(../img/Duality/banniere.jpg);
+    }
+
+    .img9{
+        background-image: url(../img/leo/banniere.JPG);
+    }
+
+    .img10{
+        background-image: url(../img/incamp/background.jpg);
+    }
+
+    .img11{
+        background-image: url(../img/estoire/background.jpg);
+    }
+
+    .img12{
+        background-image: url(../img/citadelle/background.jpg);
+    }
+
+    .img13{
+        background-image: url(../img/luisbunuel/background.jpg);
+    }
+
+    .img14{
+        background-image: url(../img/indiglu/background.jpg);
+    }
+
+    .img15{
+        background-image: url(../img/artnouveau/background.jpg);
+    }
+
+    .img16{
+        background-image: url(../img/campuscar/background.jpg);
+    }
+
+    .img17{
+        background-image: url(../img/Duality/background.jpg);
+    }
+
+    .img18{
+        background-image: url(../img/leo/background.jpg);
+    }
+
 
 
     }
