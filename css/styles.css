@@ -59,7 +59,7 @@ h5{
 }
 
 .typewrite{
-    font-size: 2.1rem;
+    font-size: 2.4rem;
 }
 
 .btnperso{
@@ -170,7 +170,7 @@ span {
 }
 
 .colonne1{
-    margin-top:10%;
+    margin-top:17%;
 }
 .colonne1 p{
     margin-top:10%;
@@ -193,6 +193,8 @@ figcaption{
     width: 100%;
 }
 
+
+
 /* Animation Texte et Illustration */
 
 
@@ -210,7 +212,7 @@ figcaption{
 
   .graphisme{
     display: block;
-    font-size: 14rem;
+    font-size: 15.8rem;
     width: 100%;
     margin: 0;
   }
@@ -219,9 +221,6 @@ figcaption{
     font-size: 13rem;
   }
 
-  .graphisme3{
-    font-size: 5rem;
-  }
 
   .text-copy {
     fill: none;
@@ -735,6 +734,10 @@ background-color: #d4886225;
         background-image: url(../img/leo/background.jpg);
     }
 
+    .intro{
+        height: 100vh;
+    }
+
 
 
     }
@@ -825,7 +828,7 @@ background-color: #d4886225;
     }
 
     h2{
-        font-size: 1.4rem;;
+        font-size: 1.9rem;;
     }
 
     .camera2{
@@ -833,7 +836,8 @@ background-color: #d4886225;
     }
 
     .h1citation{
-        font-size: 1.4rem;
+        font-size: 1.8rem;
+        line-height: 1.5;
     }
 
     #myBtnContainer{
