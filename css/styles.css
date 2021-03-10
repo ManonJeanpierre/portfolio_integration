@@ -401,7 +401,7 @@ background-color: #d4886225;
 /* Responsive  */
 
 
-@media (min-width: 1480px){
+@media (min-width: 1280px){
     #fleur1{
         background-image: url("../img/accueil/motif_accueil_rouge.png");
         background-repeat: no-repeat;
@@ -791,7 +791,7 @@ background-color: #d4886225;
     
 }
 
-@media screen and (min-width: 1280px) and (max-width: 1480px) {
+@media screen and (min-width: 1080px) and (max-width: 1280px) {
     .loader-logo img{
         display: none;
     }
